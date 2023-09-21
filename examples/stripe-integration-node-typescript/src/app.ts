@@ -6,7 +6,7 @@ import StripeService from "./core/stripe/services/StripeService";
 import { CheckoutParamsSchema } from "./core/stripe/schemas/checkoutParams.schema";
 
 // Set config path
-dotenv.config({ path: path.join(__dirname, "..", ".env") });
+dotenv.config({ path: path.join(__dirname, "../..", ".env") });
 
 const app = express();
 const port = 3000;

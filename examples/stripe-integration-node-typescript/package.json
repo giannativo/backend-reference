@@ -2,7 +2,7 @@
   "name": "stripe-node-typescript-example",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/app.js",
+  "main": "dist/src/app.js",
   "scripts": {
     "dev": "tsc && nodemon dist/app.js",
     "test": "jest --verbose",
